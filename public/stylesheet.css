@@ -1,0 +1,230 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-weight: 100;
+    font-family: 'Lato';
+    font-size: 14pt;
+    background: url('images/racetrack.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+.pattern {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 5px;
+	width: 100%;
+	background: url('images/pattern.jpg');
+	background-position: top;
+}
+
+header {
+	position: fixed;
+	top: 5px;
+	left: 0;
+	height: 40px;
+	width: 100%;
+	background-color: rgba(0,0,0,.8);
+	border-bottom: 1px solid red;
+	-webkit-box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.5);
+}
+
+nav {
+	text-align: center;
+	font-size: 14pt;
+}
+
+nav a {
+	padding: 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: red;
+	line-height: 40px;
+	transition: .25s;
+}
+
+nav a:hover {
+	color: white;
+}
+
+.container {
+	margin: 0 auto;
+	position: relative;
+	top: 70px;
+    text-align: center;
+}
+
+.content {
+	margin: 0 auto;
+	padding: 25px;
+	border-radius: 50px;
+	min-width: 325px;
+    width: 60%;
+	background-color: rgba(0,0,0,.7);
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+}
+
+.title {
+	font-family: Play;
+    font-size: 70px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+h1 {
+	margin: 0;
+	margin-bottom: 20px;
+	padding: 0;
+	font-size: 16pt;
+	letter-spacing: 1px;
+	font-weight: 300;
+	color: red;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+	line-height: 18pt;
+}
+
+* + * p {
+	margin-top: 15px;
+}
+
+p:last-child {
+	margin-bottom: 15px;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+a {
+	padding: 0;
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	color: blue;
+}
+
+.view {
+	margin-top: 25px;
+}
+
+.view a {
+	color: blue;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+.view a:hover {
+	color: red;
+}
+
+.edit {
+	margin-top: 15px;
+}
+
+button.add {
+	margin-top: 25px;
+	height: 30px;
+	border: none;
+	background-color: blue;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 8pt;
+}
+
+button.add:hover {
+	background-color: red;
+}
+
+.form {
+	width: 250px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.form div {
+	text-align: right;
+}
+
+.form input {
+	text-align: left;
+	margin-bottom: 5px;
+	height: 30px;
+	width: 150px;
+}
+
+.form button {
+	border: none;
+	background-color: red;
+	height: 20px;
+	width: 157px;
+	margin-top: 10px;
+	margin-right: 4px;
+	color: white;
+}
+
+.form button:hover {
+	background-color: blue;
+}
+
+.cancel {
+	margin-top: 20px;
+	text-align: center;
+	font-size: 10pt;
+}
+
+.cancel a {
+	color: red;
+}
+
+.cancel a:hover {
+	color: blue;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+	text-align: left;
+}
+
+button.remove {
+	color: white;
+	border: none;
+	background-color: red;
+	height: 20px;
+	width: 20px;
+	margin-right: 15px;
+	border-radius: 20px;
+}
+
+button.remove:hover {
+	background-color: #610800;
+}
+
+.wrap {
+	margin: 0 auto;
+	width: 250px;
+}
+
+.content p span {
+	color: blue;
+}
+
+input {
+ font-size: 12pt;
+}
